@@ -106,7 +106,7 @@ function bolhaAdiatamentoR() {
 }
 function reodernamentoR() {
     bolhaAdiatamento.forEach(reor => {
-        if (reor == 'NOP') {
+        if (reor == 'NOP' && (reor[0] == 'beq' || reor[0] == 'bne')) {
         } else {
             reodernamento.push(reor)
         }
