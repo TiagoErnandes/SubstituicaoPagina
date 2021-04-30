@@ -1,7 +1,7 @@
 table,
 td,
 th {
-    border: solid 1.5px #385ab6;
+    border: solid 1.5px #6b778d;
     padding: 4px;
     border-collapse: collapse;
 }
@@ -25,7 +25,7 @@ table {
 }
 
 .menu {
-    background: #385ab6;
+    background: #6b778d;
     color: white;
 }
 
@@ -106,7 +106,7 @@ a.menu-log {
 .modal {
     background: white;
     padding: 40px;
-    border: 10px solid #385ab6;
+    border: 10px solid #6b778d;
     box-shadow: 0 0 10px white;
     position: relative;
     margin-bottom: 15px;
@@ -159,7 +159,7 @@ a.menu-log {
 .modal button[type="submit"] {
     margin: 0 auto;
     display: block;
-    background: #385ab6;
+    background: #6b778d;
     border: none;
     border-radius: 4px;
     width: 50%;
@@ -179,7 +179,7 @@ a.menu-log {
     font-family: "IMB Plex Mono", monospace;
 }
 [data-salva="salva"]:hover {
-    background: #385ab6;
+    background: #6b778d;
 }
 [data-salva="salva"].ativo {
     display: none;
@@ -191,7 +191,7 @@ a.menu-log {
 
 footer {
     text-align: center;
-    background: #385ab6;
+    background: #6b778d;
     color: white;
     padding: 20px;
     bottom: 0;
